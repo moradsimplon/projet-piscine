@@ -5,7 +5,7 @@ body{
   font-family: 'Chewy', cursive;
   color: white;
 }
-
+/*partie haut de pages*/
 header{
 
   position: relative;
@@ -26,11 +26,20 @@ h1{
 }
 header ul  {
 text-align: center;
+list-style: none;
 }
-ul {
-  list-style: none;
+.logo {
+  height: 80px;
+  width: 200px;
 
 }
+.petitlogo {
+  height: 80px;
+  width: 120px;
+}
+/*fin partie haut de pages*/
+
+
 img{
   border-radius: 5px;
 }
@@ -76,19 +85,10 @@ em{
 
 
 }
-.logo {
-  height: 80px;
-  width: 200px;
-
-}
 p{
   width: 190px;
 }
 
-.petitlogo {
-  height: 80px;
-  width: 120px;
-}
 footer{
   background-image: url('file:///home/morad/site/lab/projet-piscine/images/getsupercustomizedimage.php5.png');
 }

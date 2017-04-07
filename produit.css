@@ -1,0 +1,43 @@
+body{
+  background: radial-gradient( circle  #23D0D2 ,#aed6f1 )
+}
+*{
+  font-family: 'Chewy', cursive;
+  color: white;
+}
+/*partie haut de pages*/
+header{
+
+  position: relative;
+  height: 400px;
+}
+header li  {
+  display: inline;
+  font-size: 37px;
+  margin-left: 60px;
+}
+
+h1{
+  background: -webkit-linear-gradient(  white, #aed6f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5em;
+  text-align: center;
+}
+header ul  {
+text-align: center;
+list-style: none;
+}
+.logo {
+  height: 80px;
+  width: 200px;
+
+}
+.petitlogo {
+  height: 80px;
+  width: 120px;
+}
+form{
+ position: absolute;
+ right: 15px;
+}
