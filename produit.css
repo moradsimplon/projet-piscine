@@ -41,3 +41,18 @@ form{
  position: absolute;
  right: 15px;
 }
+footer{
+  background-image: url('file:///home/morad/site/lab/projet-piscine/images/getsupercustomizedimage.php5.png');
+}
+footer section , footer nav {
+  position: relative;
+  left: 90px;
+  margin-left: 120px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.fb, .twit  {
+  height: 40px;
+  width:  40px;
+}
