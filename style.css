@@ -12,9 +12,16 @@ header{
   height: 400px;
 }
 header li  {
+
   display: inline;
   font-size: 37px;
   margin-left: 60px;
+
+}
+nav{
+  width: 700px;
+  text-align: center;
+  margin-left: 240px;
 }
 
 h1{
@@ -36,6 +43,7 @@ list-style: none;
 .petitlogo {
   height: 80px;
   width: 120px;
+
 }
 /*fin partie haut de pages*/
 

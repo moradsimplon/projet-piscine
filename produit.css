@@ -12,9 +12,16 @@ header{
   height: 400px;
 }
 header li  {
+
   display: inline;
   font-size: 37px;
   margin-left: 60px;
+
+}
+nav{
+  width: 700px;
+  text-align: center;
+  margin-left: 240px;
 }
 
 h1{
@@ -36,12 +43,41 @@ list-style: none;
 .petitlogo {
   height: 80px;
   width: 120px;
+
 }
 form{
- position: absolute;
- right: 15px;
+  position: absolute;
+  right: 15px;
 }
+/*fin de partie haut de page*/
+/*debut partie centrale article tableau*/
+h2{
+  text-align: center;
+  margin-top: 35px;
+}
+.banniere {
+  position: relative;
+  left: 250px;
+  width: 900px;
+}
+.imgbanniere{
+  height: 200px;
+  width: 900px;
+}
+table , img{
+  display: inline-block;
+}
+table{
+  height: 300px;
+  width: 500px;
+  margin-left: 60px;
 
+}
+em{
+  font-weight: bold;
+  color: green;
+}
+/*fin partie centrale taleau */
 footer{
   background-image: url('file:///home/morad/site/lab/projet-piscine/images/getsupercustomizedimage.php5.png');
 }
@@ -56,4 +92,7 @@ footer section , footer nav {
 .fb, .twit  {
   height: 40px;
   width:  40px;
+}
+p{
+  width: 180px;
 }
