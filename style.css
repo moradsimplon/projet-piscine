@@ -1,0 +1,106 @@
+body{
+  background: radial-gradient( circle  #23D0D2 ,#aed6f1 )
+}
+*{
+  font-family: 'Chewy', cursive;
+  color: white;
+}
+
+header{
+
+  position: relative;
+  height: 400px;
+}
+header li  {
+  display: inline;
+  font-size: 37px;
+  margin-left: 60px;
+}
+
+h1{
+  background: -webkit-linear-gradient(  white, #aed6f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5em;
+  text-align: center;
+}
+header ul  {
+text-align: center;
+}
+ul {
+  list-style: none;
+
+}
+img{
+  border-radius: 5px;
+}
+.produit , .marque {
+  display: inline-block;
+}
+.marque , form{
+  position: absolute;
+  right: 15px;
+}
+
+h2{
+  font-size: 2.5em;
+}
+.partenaire{
+  font-size: 23px;
+
+}
+
+h3{
+  font-size: 1.8em;
+}
+li{
+  margin-top: 32px;
+}
+ article img, article p{
+  width: 200px;
+  display: inline-block;
+  font-size: 1.5em;
+
+}
+
+strong{
+  color:green;
+}
+em{
+  text-decoration: line-through;
+  color:red;
+}
+.produit{
+  position: relative;
+  left: 110px;
+
+
+}
+.logo {
+  height: 80px;
+  width: 200px;
+
+}
+p{
+  width: 190px;
+}
+
+.petitlogo {
+  height: 80px;
+  width: 120px;
+}
+footer{
+  background-image: url('file:///home/morad/site/lab/projet-piscine/images/getsupercustomizedimage.php5.png');
+}
+footer section , footer nav {
+  position: relative;
+  left: 90px;
+  margin-left: 120px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.fb, .twit  {
+  height: 40px;
+  width:  40px;
+}
