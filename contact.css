@@ -54,6 +54,32 @@ form {
     position: absolute;
     right: 15px;
 }
+/*fin de partie haut */
+iframe{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  margin-top: 80px;
+  left : 450px;
+}
+.adresse1{
+  position: relative;
+  left: 450px;
+  text-align: center;
+  width: 300px;
+}
+.formulairemessage {
+  position:relative;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  width: 230px;
+  height: auto;
+  left: 450px;
+}
+.message {
+  height: 100px;
+}
+
 /*pied de page*/
 
 footer {
