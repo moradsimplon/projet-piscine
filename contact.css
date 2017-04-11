@@ -3,6 +3,7 @@ body {
 }
 
 * {
+    
     font-family: 'Chewy', cursive;
     color: white;
 }
@@ -12,19 +13,19 @@ body {
 
 header {
     position: relative;
-    height: 400px;
+    height: 30%;
 }
 
 header li {
     display: inline;
     font-size: 37px;
-    margin-left: 60px;
+    margin-left: 3%;
 }
 
 nav {
-    width: 700px;
+    width: 50%;
     text-align: center;
-    margin-left: 240px;
+    margin-left: 25%;
 }
 
 h1 {
@@ -41,46 +42,55 @@ header ul {
 }
 
 .logo {
-    height: 80px;
-    width: 200px;
+    height: 5%;
+    width: 20%;
 }
 
 .petitlogo {
-    height: 80px;
-    width: 120px;
+    height: 8%;
+    width: 15%;
 }
-a{
-  text-decoration: none;
+
+a {
+    text-decoration: none;
 }
+
 form {
     position: absolute;
     right: 15px;
 }
+
+
 /*fin de partie haut */
-iframe{
-  height: 300px;
-  width: 300px;
-  position: relative;
-  margin-top: 80px;
-  left : 450px;
+
+iframe {
+    height: 60%;
+    width: 50%;
+    position: relative;
+    margin-top: 5%;
+    left: 25%;
 }
-.adresse1{
-  position: relative;
-  left: 450px;
-  text-align: center;
-  width: 300px;
+
+.adresse1 {
+    position: relative;
+    left: 40%;
+    text-align: center;
+    width: 20%;
 }
+
 .formulairemessage {
-  position:relative;
-  margin-top: 70px;
-  margin-bottom: 40px;
-  width: 230px;
-  height: auto;
-  left: 450px;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 18%;
+    height: auto;
+    left: 40%;
 }
+
 .message {
-  height: 100px;
+    height: 55px;
 }
+
 
 /*pied de page*/
 
@@ -97,8 +107,9 @@ footer section, footer nav {
 }
 
 footer nav {
-    height: 60px;
-    width: 60px;
+    height: 20%;
+    width: 20%;
+    margin-left: 28%;
 }
 
 .fb, .twit {
@@ -110,4 +121,38 @@ footer nav {
 p {
     display: inline-block;
     width: 180px;
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    .petitlogo, header form, footer section {
+        display: none;
+    }
+    form {
+        width: auto;
+    }
+}
+
+@media ( min-width :320px) and ( max-width: 740px) {
+    .petitlogo, header form, footer section {
+        display: none;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    .adresse1 {
+        width: 70%;
+        position: relative;
+        left: 13%;
+    }
+    .formulairemessage {
+        width: 70%;
+        position: relative;
+        left: 13%;
+    }
+    footer nav {
+        position: relative;
+        left: 10%;
+        width: 30%;
+        display: inline-block;
+    }
 }
