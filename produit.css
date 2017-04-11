@@ -1,142 +1,120 @@
-body {
-    background: radial-gradient( circle #23D0D2, #aed6f1)
+body{
+  background: radial-gradient( circle  #23D0D2 ,#aed6f1 )
 }
-
-* {
-    font-family: 'Chewy', cursive;
-    color: white;
+*{
+  font-family: 'Chewy', cursive;
+  color: white;
 }
-
-
 /*partie haut de pages*/
+header{
 
-header {
-    position: relative;
-    height: 400px;
+  position: relative;
+  height: 400px;
+}
+a{
+  text-decoration: none;
+}
+header li  {
+
+  display: inline;
+  font-size: 37px;
+  margin-left: 60px;
+
+}
+nav{
+  width: 700px;
+  text-align: center;
+  margin-left: 240px;
 }
 
-header li {
-    display: inline;
-    font-size: 37px;
-    margin-left: 60px;
+h1{
+  background: -webkit-linear-gradient(  white, #aed6f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5em;
+  text-align: center;
 }
-
-nav {
-    width: 700px;
-    text-align: center;
-    margin-left: 240px;
+header ul  {
+text-align: center;
+list-style: none;
 }
-
-h1 {
-    background: -webkit-linear-gradient( white, #aed6f1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 5em;
-    text-align: center;
-}
-
-header ul {
-    text-align: center;
-    list-style: none;
-}
-
 .logo {
-    height: 80px;
-    width: 200px;
-}
+  height: 80px;
+  width: 200px;
 
+}
 .petitlogo {
-    height: 80px;
-    width: 120px;
+  height: 80px;
+  width: 120px;
+
 }
-
-form {
-    position: absolute;
-    right: 15px;
+form{
+  position: absolute;
+  right: 15px;
 }
-
-
 /*fin de partie haut de page*/
-
-
 /*debut partie centrale article tableau*/
-
-h2 {
-    text-align: center;
-    margin-top: 35px;
+h2{
+  text-align: center;
+  margin-top: 35px;
 }
-
 .banniere {
-    position: relative;
-    left: 250px;
-    width: 900px;
+  position: relative;
+  left: 250px;
+  width: 900px;
+}
+.imgbanniere{
+  height: 200px;
+  width: 900px;
+}
+table , img{
+  display: inline-block;
+  border-radius: 3px;
 }
 
-.imgbanniere {
-    height: 200px;
-    width: 900px;
+table{
+  height: 300px;
+  width: 500px;
+  margin-left: 90px;
+
 }
-
-table, img {
-    display: inline-block;
-    border-radius: 3px;
+th{
+  text-align: left;
+  background-color:   #85c1e9 ;
 }
-
-table {
-    height: 300px;
-    width: 500px;
-    margin-left: 90px;
+td{
+  text-align: center;
+  border: 1px solid white;
 }
-
-th {
-    text-align: left;
-    background-color: #85c1e9;
+em{
+  font-weight: bold;
+  color: green;
 }
-
-td {
-    text-align: center;
-    border: 1px solid white;
+button{
+  background-color:  #85c1e9 ;
 }
-
-em {
-    font-weight: bold;
-    color: green;
-}
-
-button {
-    background-color: #85c1e9;
-}
-
-
 /*fin partie centrale taleau */
-
-
 /*pied de page*/
-
-footer {
-    background-image: url('file:///home/morad/site/lab/projet-piscine/images/getsupercustomizedimage.php5.png');
+footer{
+  background-image: url('file:///home/morad/site/lab/projet-piscine/images/getsupercustomizedimage.php5.png');
 }
-
-footer section, footer nav {
-    position: relative;
-    left: 90px;
-    margin-left: 120px;
-    display: inline-block;
-    vertical-align: top;
+footer section , footer nav {
+  position: relative;
+  left: 90px;
+  margin-left: 120px;
+  display: inline-block;
+  vertical-align: top;
 }
-
-footer nav {
-    height: 60px;
-    width: 60px;
+ footer nav{
+  height: 60px;
+  width: 60px;
 }
-
-.fb, .twit {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
+.fb, .twit  {
+  display: inline-block;
+  height: 40px;
+  width:  40px;
 }
-
-p {
-    display: inline-block;
-    width: 180px;
+p{
+display: inline-block;
+  width: 180px;
 }

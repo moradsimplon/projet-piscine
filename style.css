@@ -1,3 +1,4 @@
+
 body {
     background: radial-gradient( circle #23D0D2, #aed6f1)
 }
@@ -14,7 +15,9 @@ header {
     position: relative;
     height: 400px;
 }
-
+ a{
+   text-decoration: none;
+ }
 header li {
     display: inline;
     font-size: 37px;
@@ -22,9 +25,9 @@ header li {
 }
 
 nav {
-    width: 700px;
-    text-align: center;
-    margin-left: 240px;
+    width: 60%;
+    margin-left: 15%;
+
 }
 
 h1 {
@@ -41,13 +44,13 @@ header ul {
 }
 
 .logo {
-    height: 80px;
-    width: 200px;
+    height: 25%;
+    width: 15%;
 }
 
 .petitlogo {
-    height: 80px;
-    width: 120px;
+    height: 9%;
+    width: 10%;
 }
 
 
@@ -86,7 +89,7 @@ li {
 }
 
 article img, article p {
-    width: 200px;
+    width: 30%;
     display: inline-block;
     font-size: 1.5em;
 }
@@ -102,7 +105,7 @@ em {
 
 .produit {
     position: relative;
-    left: 110px;
+    left: 5%;
 }
 
 p {
@@ -135,4 +138,59 @@ footer nav {
 .fb, .twit {
     height: 40px;
     width: 40px;
+}
+
+/*fin de pied de page */
+/*responsive*/
+@media (min-width: 740px) and (max-width: 1024px){
+  .petitlogo , header form, .marque , footer section {
+    display: none;
+  }
+  header nav {
+    width: 80%;
+    margin-left: 0;
+
+  }
+  .piscine1 , .piscine2  {
+    width: 40%;
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+  }
+  article p , article a {
+    font-size: 20px;
+  }
+  article img {
+    width: auto;
+    height: auto;
+  }
+  footer nav {
+    display: inline;
+
+  }
+}
+@media ( min-width :320px) and ( max-width: 740px){
+  .petitlogo , header form, header nav, .marque , footer section {
+    display: none;
+  }
+  header {
+    height: 30%;
+  }
+  h1 {
+    width: 100%;
+    font-size: 4em;
+  }
+  .logo{
+    width: 40%;
+  }
+  section article{
+    height: 20%;
+    font-size: 10px;
+
+  }
+  footer nav{
+    display: inline;
+    margin-left: auto;
+  }
+
 }
