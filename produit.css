@@ -176,6 +176,9 @@ p {
 }
 
 @media ( min-width :320px) and ( max-width: 740px) {
+  form, .petitlogo, .banniere, footer section {
+      display: none;
+  }
     header nav {
         display: none;
     }
@@ -189,3 +192,7 @@ p {
     h1 {
         font-size: 2em;
     }
+   footer nav {
+     width: 20%;
+
+   }

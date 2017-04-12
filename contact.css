@@ -3,7 +3,7 @@ body {
 }
 
 * {
-    
+
     font-family: 'Chewy', cursive;
     color: white;
 }
@@ -145,7 +145,7 @@ p {
         left: 13%;
     }
     .formulairemessage {
-        width: 70%;
+        width: 60%;
         position: relative;
         left: 13%;
     }
